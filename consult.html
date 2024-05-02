@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="consult.css">
+  <link rel="stylesheet" href="https://use.typekit.net/dcy5cqz.css">
+  <title>Consultation Form</title>
+  <link rel="icon" type="image/x-icon" href="assets/dager white on black.jpg">
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="index.html" class="split" onClick="document.form1.reset();">
+      <img src="assets/dager.png" width="35"></a>
+    <a href="faq.html">FAQ</a>
+    <a href="artist.html">Artist Portfolios</a>
+  </div>
+
+  <div class="main-container">
+    <h1>Online <br> Consultation</h1>
+    <h2>Please note that we receive several emails daily and there will most likely be a delay in responses. We are also
+      unable to guarantee waiting times for future appointments for new requests due to existing clientele. At present,
+      The studio is booking ongoing clients 1-3 months in advance. You must completely fill out the following form and
+      submit for approval. Incomplete forms are unable to be replied to. No information will be shared with any third
+      party unless specific permission is given. Information will be kept on file only for Dinkytown Tattoo.
+    </h2>
+    <div class="line">
+      <!-- Contact (name, email, phone #) -->
+      <form action="/action_page.php">
+        <label for="fname">Name*</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First" required>
+        <input type="text" id="lname" name="lname" placeholder="Last" required><br><br>
+        <label for="fname">Email*</label><br>
+        <input type="text" class="input-box" id="fname" name="fname" required><br><br>
+        <label for="fname">Phone Number</label><br>
+        <input type="text" class="input-box" id="fname" name="fname">
+      </form>
+      <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    </div>
+
+
+    <!-- Logistics (service, avalibility, artist, budget) -->
+    <div class="line">
+      <p>Service(s) Requested*</p>
+      <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> New Tattoo</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Touch Up</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Cover Up</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Rework</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Add To</label>
+        <br>
+      </form>
+
+      <p>Avalibility Preference* <br> Choose Daytime or Evening and any Day(s) of the Week</p>
+      <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Daytime</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Evenings</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Monday</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Tuesday</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Wenesday</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Thursday</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Friday</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Saturday</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Sunday</label><br>
+      </form>
+      <br>
+
+      <form action="/action_page.php">
+        <label for="fname">Prefered Artist(s)</label><br>
+        <input type="text" class="input-box" id="fname" name="fname">
+      </form>
+      <br>
+
+      <form action="/action_page.php">
+        <label for="fname">Budget*</label><br>
+        <input type="text" class="input-box" id="fname" name="fname">
+      </form>
+      <br>
+    </div>
+
+
+    <!-- Details (ref photos, size, style, location, description, existing tattoos) -->
+    <br>
+    <p>Reference Photos* <br>
+      Please have a way to take photos of body part(s) from another person's view.
+      <br>
+      If you need example just ask in the description!
+    </p>
+    <form action="/action_page.php">
+      <label for="myfile">Select Files</label>
+      <input type="file" id="myfile" name="myfile" multiple>
+    </form>
+    <br>
+
+
+
+    <form action="/action_page.php">
+      <label for="cars">Tattoo Size*</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Select a Size</option>
+        <option value="volvo">X-Sm (<2 inches)</option>
+        <option value="saab">Sm (<4 Inches)</option>
+        <option value="opel">Med (<6 Inches)</option>
+        <option value="audi">Large (<12 Inches)</option>
+        <option value="audi">XL (>13 Inches)</option>
+      </select>
+    </form>
+    <br>
+
+
+
+    <form action="/action_page.php">
+      <label for="cars">Color Scheme*</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Select a Color</option>
+        <option value="volvo">Black & Gray</option>
+        <option value="saab">Full Color</option>
+        <option value="opel">Black Work</option>
+        <option value="audi">Undecided</option>
+      </select>
+    </form>
+    <br>
+
+
+
+    <form action="/action_page.php">
+      <label for="cars">Tattoo Style*</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Select a Style</option>
+        <option value="volvo"> Traditional Americana </option>
+        <option value="saab">Realism/Portrait</option>
+        <option value="opel">New School/Neo-Traditional </option>
+        <option value="audi">Tribal</option>
+        <option value="audi">Traditional Japanese </option>
+        <option value="audi">Lettering</option>
+        <option value="audi">Micro</option>
+        <option value="audi">Outline</option>
+        <option value="audi">Up to Artist</option>
+        <option value="audi">Other</option>
+      </select>
+    </form>
+    <br>
+
+
+
+    <img src="assets/locations.jpg" width="800px">
+    <br>
+    <label for="fname">Desired Location*</label><br>
+    <input type="text" class="input-box" id="fname" name="fname">
+    <br>
+    <br>
+
+
+    <label for="fname">Brief Description*</label><br>
+    <input type="text" class="big-box" id="fname" name="fname">
+    <br>
+    <br>
+
+    <label for="fname">Existing Tattoo(s) Near Desired Location</label><br>
+    <input type="text" class="big-box" id="fname" name="fname">
+    <br>
+    <br>
+    <br>
+    <div class="submit">
+      <input class="submit" type="submit" value="Submit" id="submit">
+    </div>
+  </div>
+  <br>
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+body {
+    background-color:#0e0e0e;
+    color: white;
+    margin: 30px;
+
+}
+
+
+
+
+h1 {
+    text-align: left;
+    font-family: exocet, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 0px;
+
+}
+
+h2 {
+    text-align: left;
+    font-family: exocet, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: left;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: -8px;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+}
+
+
+p {
+    text-align: left;
+    font-size: 15px;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+    overflow: hidden;
+    color: #D2042D;
+    font-family: exocet, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.topnav a {
+    float: right;
+    color: #D2042D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+.topnav a.split {
+    float: right;
+    color: #D2042D;
+}
+
+
+
+
+
+
+
+
+
+.active,
+.collapsible:hover {
+    background-color: #D2042D;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #676767;
+}
+
+
+.collapsible {
+    background-color: #282727;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 20px;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+}

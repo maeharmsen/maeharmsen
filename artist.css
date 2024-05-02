@@ -1,0 +1,115 @@
+body {
+    background-color: #0e0e0e;
+    color: white;
+    margin: 30px;
+    font-family: exocet, sans-serif;
+    font-style: normal;
+}
+
+
+
+
+.topnav {
+    overflow: hidden;
+    color: #D2042D;
+}
+
+.topnav a {
+    float: right;
+    color: #D2042D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+.topnav a.split {
+    float: right;
+    color: #D2042D;
+}
+
+
+
+
+
+h1 {
+    text-align: left;
+    font-family: exocet, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 0px;
+
+}
+
+h2 {
+    text-align: left;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: -8px;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.portfolio-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.artist-wrapper {
+    width: 20%;
+    text-align: center;
+}
+
+.scroll-container {
+    background-color: #282727;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    width: 80%;
+    height: 250px;
+}
+
+.scroll-container img {
+    padding: 10px;
+}
+
+
+
+
+.button1 {
+    background-color: black;
+    border: 4px solid #D2042D;
+    color: #D2042D;
+    padding: 10px;
+    font-size: 16px;
+    font-family: exocet, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    width: 200px;
+    transition: .4s;
+}
+
+.button1:hover {
+    background-color: #D2042D;
+    color: white;
+    transition: .4s;
+}
+
+
+
+
+
+
+
+

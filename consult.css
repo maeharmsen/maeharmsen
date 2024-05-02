@@ -1,0 +1,126 @@
+body {
+    background-color: #0e0e0e;
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 15px;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+}
+
+.line {
+    padding: 20px;
+    border-bottom: 3px solid white;
+}
+
+.main-container {
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: #282727;
+}
+
+
+
+
+.topnav {
+    overflow: hidden;
+    color: #D2042D;
+    font-family: exocet, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    width: auto;
+
+}
+
+.topnav a {
+    float: right;
+    color: #D2042D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+.topnav a.split {
+    float: right;
+    color: #D2042D;
+}
+
+
+
+
+
+h1 {
+    text-align: left;
+    font-family: exocet, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 50px;
+
+}
+
+h2 {
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+    margin-top: -20px;
+
+}
+
+.input-box {
+    width: 340px;
+    height: 15px;
+}
+
+.big-box {
+    width: 340px;
+    height: 75px;
+}
+
+
+
+
+
+#submit {
+    border: 4px solid #D2042D;
+    color: #D2042D;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+    font-size: 16px;
+    font-family: exocet, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    padding: 10px;
+    transition: .4s;
+}
+
+#submit:hover {
+    background-color: #D2042D;
+    color: white;
+    transition: .4s;
+}
+
+.submit {
+    width: 100px;
+    margin: auto;
+}
+
+
+
+
+
+
+
